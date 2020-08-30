@@ -1,0 +1,44 @@
+.header {
+    width: 100%;
+    height: 92vh;
+    background: $primary;
+    padding: 2% 10%;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+    -moz-clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+    -o-clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+    -ms-clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+
+    &__text-covid {
+        color: $second;
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+
+    &__text-selamat {
+        font-size: 5.4rem;
+        color: $second;
+    }
+
+    &__text-desc {
+        color: $second;
+        margin: 1rem 0 4rem 0;
+        width: 80%;
+        font-size: 1.4rem;
+    }
+
+    &__main {
+        margin-top: 13%;
+        width: 60%;
+    }
+
+    &__gambar {
+        float: right;
+        width: 40%;
+
+        img {
+            width: 45rem;
+            height: 40rem;
+        }
+    }
+}
